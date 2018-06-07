@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      template="/Template/modelo/ModeloPaginas.xhtml">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <ui:define name="conteudo">   
+        <h:body>
+            <p:panel header="Principal">
+         <h:form style="height: 300px">
+            <p:outputLabel value="Origem"/>
+            <p:inputText value="#{cidadeBean.nomeCidade}"/>
+            <p:outputLabel value="Destino"/>
+            <p:inputText value="#{cidadeBean.nomeCidade}"/>
+            <h:panelGrid columns="2" style="margin-bottom:10px" cellpadding="5">
+                <h:selectOneRadio id="idavolta" value="#{passagemBean.percurso}">
+                    <f:selectItem itemValue="ida" itemLabel="Ida" />
+                    <f:selectItem itemValue="idavolta" itemLabel="Ida e Volta"/>
+                </h:selectOneRadio>         
+            </h:panelGrid>
+            <p:outputLabel value="Data de ida" />
+            <p:calendar pattern="dd/MM/yyyy" locale="pt" id="dataida" value="#{passagemBean.dtsai}">
+            
+        </p:calendar>
+            <p:outputLabel value="Data de volta" />
+            <p:calendar pattern="dd/MM/yyyy" locale="pt" id="datavolta" value="#{passagemBean.dtvolta}">
+            
+        </p:calendar>
+            <p:commandButton value="Buscar passagem" action="Login.SPR"/>
+        </h:form>
+           </p:panel>
+    </h:body>
+    </ui:define>
+    
+
+</ui:composition>
+

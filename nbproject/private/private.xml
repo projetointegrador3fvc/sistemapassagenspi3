@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="FVC">
+            <file>file:/C:/Users/Camila/Desktop/SistemaPassagensComApache/src/java/br/ba/spr/DAO/VeiculoDAO.java</file>
+            <file>file:/C:/Users/Camila/Desktop/SistemaPassagensComApache/web/Template/menus/menu.xhtml</file>
+            <file>file:/C:/Users/Camila/Desktop/SistemaPassagensComApache/src/java/br/ba/spr/Bean/Veiculo.java</file>
+            <file>file:/C:/Users/Camila/Desktop/SistemaPassagensComApache/src/java/br/ba/spr/Bean/Cidade.java</file>
+            <file>file:/C:/Users/Camila/Desktop/SistemaPassagensComApache/src/java/br/ba/spr/DAO/PassagemListenerDAO.java</file>
+            <file>file:/C:/Users/Camila/Desktop/SistemaPassagensComApache/src/java/br/ba/spr/Bean/Passagem.java</file>
+            <file>file:/C:/Users/Camila/Desktop/SistemaPassagensComApache/src/java/br/ba/spr/Util/ConexaoBD.java</file>
+            <file>file:/C:/Users/Camila/Desktop/SistemaPassagensComApache/src/java/br/ba/spr/DAO/UsuarioDAO.java</file>
+            <file>file:/C:/Users/Camila/Desktop/SistemaPassagensComApache/src/java/br/ba/spr/DAO/VeiculoListenerDAO.java</file>
+        </group>
+    </open-files>
+</project-private>
